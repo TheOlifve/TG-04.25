@@ -1,0 +1,15 @@
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/bin/Debug/net10.0/big-int
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/bin/Debug/net10.0/big-int.deps.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/bin/Debug/net10.0/big-int.runtimeconfig.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/bin/Debug/net10.0/big-int.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/bin/Debug/net10.0/big-int.pdb
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.AssemblyInfoInputs.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.AssemblyInfo.cs
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.csproj.CoreCompileInputs.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.sourcelink.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/refint/big-int.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.pdb
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/big-int.genruntimeconfig.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex02/big-int/big-int/obj/Debug/net10.0/ref/big-int.dll
