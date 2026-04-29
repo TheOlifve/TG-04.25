@@ -10,7 +10,8 @@ class Program
         Console.WriteLine(unchecked(b + 1)); // -9223372036854775808
 
         Console.WriteLine(Add("2147483647", "1"));
-        Console.WriteLine(Subtract("10000", "1"));        // 9999
+        Console.WriteLine(Subtract("10000", "1"));
+        Console.WriteLine(Multiply("710", "3000"));
          
     }
 
@@ -28,6 +29,9 @@ class Program
         while (index < str.Length && str[index] == '0')
             index++;
         str = str.Substring(index);
+        
+        if (str.Length == 0)
+            str = "0";
         
         return str;
     }
@@ -89,6 +93,41 @@ class Program
             
             result = (char)('0' + sum % 10) + result;
             i--;
+            j--;
+        }
+        return (result == "" ? "0" : Validator(result));
+    }
+    
+    static string Multiply(string a, string b)
+    {
+        a = Validator(a);
+        b = Validator(b);
+
+        if (a == "0" || b == "0")
+            return "0";
+        int carry = 0;
+        int i = a.Length - 1;
+        int j = b.Length - 1;
+        int shift = 0;
+        
+        string   result = "";
+        string[] numbers = new string[b.Length];
+
+        while (j >= 0)
+        {
+            int digitB = j >= 0 ? (b[j] - '0') : 0;
+
+            for (int x = i; x >= 0 || carry != 0; x--)
+            {
+                int digitA = x >= 0 ? (a[x] - '0') : 0;
+                int sum = digitA * digitB + carry;
+                
+                carry = sum / 10;
+                numbers[shift] = (char)('0' + sum % 10) + numbers[shift];
+            }
+            numbers[shift] = numbers[shift].PadRight(numbers[shift].Length + shift, '0');
+            result = Add(numbers[shift], result);
+            shift++;
             j--;
         }
         return (result == "" ? "0" : Validator(result));

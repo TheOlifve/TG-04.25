@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("big-int")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf9b4c9d4e5c5cfff1fc20e2b0986fe3805a4930")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8cf3bca278e3cfeed1da2ab60fc23906e506383")]
 [assembly: System.Reflection.AssemblyProductAttribute("big-int")]
 [assembly: System.Reflection.AssemblyTitleAttribute("big-int")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
