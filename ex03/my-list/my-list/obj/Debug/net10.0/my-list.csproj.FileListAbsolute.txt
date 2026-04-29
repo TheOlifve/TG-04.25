@@ -1,0 +1,15 @@
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/bin/Debug/net10.0/my-list
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/bin/Debug/net10.0/my-list.deps.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/bin/Debug/net10.0/my-list.runtimeconfig.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/bin/Debug/net10.0/my-list.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/bin/Debug/net10.0/my-list.pdb
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.AssemblyInfoInputs.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.AssemblyInfo.cs
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.csproj.CoreCompileInputs.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.sourcelink.json
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/refint/my-list.dll
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.pdb
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/my-list.genruntimeconfig.cache
+/Users/hrant/Desktop/TechGen C#/TG-04.25/ex03/my-list/my-list/obj/Debug/net10.0/ref/my-list.dll
