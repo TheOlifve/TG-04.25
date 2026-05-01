@@ -55,7 +55,7 @@ class MyList
         return false;
     }
     
-    public bool tryGet(int index, out int value)
+    public bool TryGet(int index, out int value)
     {
         if (index < 0 || index >= _count)
         {
@@ -65,12 +65,40 @@ class MyList
         value = _items[index];
         return true;
     }
+
+    public int IndexOf(int item)
+    {
+        for (int i = 0; i < _count; i++)
+        {
+            if (item == _items[i])
+                return i;
+        }
+        return -1;
+    }
+
+    public bool Contains(int item)
+    {
+        for (int i = 0; i < _count; i++)
+        {
+            if (item == _items[i])
+                return true;
+        }
+
+        return false;
+    }
+
+    public void Clear()
+    {
+        _count = 0;
+    }
 }
 
 class Program
 {
     static void Main(string[] args)
     {
+        string asd = "0123";
+        
         MyList myList = new MyList();
         
         myList.Add(1);
@@ -88,9 +116,9 @@ class Program
         myList.Print();
 
         int i = 0;
-        Console.WriteLine($"{myList.tryGet(100, out i)} | {i}");
+        Console.WriteLine($"{myList.TryGet(100, out i)} | {i}");
         
-        Console.WriteLine($"{myList.tryGet(3, out i)} | {i}");
+        Console.WriteLine($"{myList.TryGet(3, out i)} | {i}");
         
     }
 }
