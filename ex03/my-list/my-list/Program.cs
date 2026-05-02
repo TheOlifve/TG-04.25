@@ -7,6 +7,12 @@ class MyList
     private int[] _items;
     private int   _count;
 
+    public int this[int index]
+    {
+        get { return _items[index]; }
+        set { _items[index] = value; }
+    }
+
     public void Print()
     {
         for (int i = 0; i < _count; i++)
@@ -97,8 +103,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        string asd = "0123";
-        
         MyList myList = new MyList();
         
         myList.Add(1);
